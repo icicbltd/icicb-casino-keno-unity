@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 600be28949756e342bfa2e3fb2995402
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - prefab: {instanceID: 0}
+  - RedTexture: {instanceID: 0}
+  - BlueTexture: {instanceID: 0}
+  - Cost: {instanceID: 0}
+  - Balance: {instanceID: 0}
+  - Win: {instanceID: 0}
+  - EffectImage: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
