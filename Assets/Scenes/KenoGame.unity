@@ -1301,10 +1301,10 @@ RectTransform:
   m_Father: {fileID: 1060721931}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.29200003, y: 0}
-  m_AnchorMax: {x: 0.896, y: 1}
-  m_AnchoredPosition: {x: -23.7665, y: 0}
-  m_SizeDelta: {x: 47.533, y: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.9110001}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &474442678
 MonoBehaviour:
@@ -1330,9 +1330,9 @@ MonoBehaviour:
     m_Font: {fileID: 12800000, guid: 68ddd2e32f6de49faab6995ee14365b8, type: 3}
     m_FontSize: 50
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 5
-    m_MaxSize: 50
+    m_MaxSize: 100
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 0
@@ -2651,7 +2651,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.31300002, y: 0}
-  m_AnchorMax: {x: 0.9206515, y: 1}
+  m_AnchorMax: {x: 0.9206803, y: 0.8601514}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -2677,9 +2677,9 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 68ddd2e32f6de49faab6995ee14365b8, type: 3}
-    m_FontSize: 40
+    m_FontSize: 0
     m_FontStyle: 0
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
     m_MaxSize: 80
     m_Alignment: 4
@@ -3777,10 +3777,10 @@ RectTransform:
   m_Father: {fileID: 1365306215}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.51414, y: -0.50998}
-  m_SizeDelta: {x: 249.02, y: 79.084}
+  m_AnchorMin: {x: 0.22700001, y: 0}
+  m_AnchorMax: {x: 0.77800006, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1060721932
 MonoBehaviour:
@@ -5940,16 +5940,16 @@ MonoBehaviour:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 50
     m_FontStyle: 1
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 60
+    m_MaxSize: 80
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 1000
+  m_Text: 0
 --- !u!222 &1573430004
 CanvasRenderer:
   m_ObjectHideFlags: 0

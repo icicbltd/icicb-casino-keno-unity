@@ -57,6 +57,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
 #if UNITY_WEBGL == true && UNITY_EDITOR == false
+Debug.Log("come here");
             GameController("Ready");
 #endif
     }
@@ -408,9 +409,10 @@ public class GameManager : MonoBehaviour
     }
     public void RequestToken(string data)
     {
+        Debug.Log("success");
         JSONNode usersInfo = JSON.Parse(data);
         Token = usersInfo["token"];
-        Balance.GetComponent<Text>().text =(usersInfo["amount"]).ToString();
+        Balance.GetComponent<Text>().text =usersInfo["amount"];
         CleanClickArray();
         numberDeploy();
         Times();
